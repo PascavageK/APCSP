@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> N(MP)Squared </title>
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <script src="../JavaScript/main.js"></script>
+    </head>
+
+    <body>
+        <canvas id="myCanvas" width="600" height="450" style="border:1px solid #000000;"></canvas>
+        <br>
+ 
+        <form>
+            <label>Start X:</label>
+            <input id="inputStartX" type="text" value="0">
+            <label>End X:</label>
+            <input id="inputEndX" type="text" value="0">
+            <br>
+            <label>Start Y:</label>
+            <input id="inputStartY" type="text" value="0">
+            <label>End Y:</label>
+            <input id="inputEndY" type="text" value="0">
+        </form>
+
+        <input type="button" value="Path" onclick="drawPath()">
+
+        <script>setUp()</script>
+
+    </body> 
+</html>
